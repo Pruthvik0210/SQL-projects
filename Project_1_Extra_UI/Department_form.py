@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import *
 import mysql.connector
 
-mydb = mysql.connector.connect(host="127.0.0.1", user="root", passwd = "Piglet123?", database = "project_1", auth_plugin= "mysql_native_password")
+mydb = mysql.connector.connect(host="000.0.0.0", user="xxx", passwd = "#########", database = "project_1", auth_plugin= "mysql_native_password")
 cursor = mydb.cursor()
 
 def adddept():
